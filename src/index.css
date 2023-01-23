@@ -11,9 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-nav.sc-jSUZER.AsInu {
-  width: 350px;
-}
-span.sc-gswNZR.dpUPCB {
-  font-size: 13px;
+
+@media only screen and (max-width: 400px) {
+  div#root nav {
+    width: 250px;
+  }
+  div#root a span {
+    font-size: 12px;
+  }
 }

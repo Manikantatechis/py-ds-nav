@@ -22,6 +22,7 @@ const SidebarLink = styled(Link)`
 
 const SidebarLabel = styled.span`
   margin-left: 16px;
+  font-size: 13px;
 `;
 
 const DropdownLink = styled(Link)`
@@ -51,7 +52,7 @@ const SubMenu = ({ item }) => {
 
   return (
     <>
-      <SidebarLink to='#' onClick={item.subNav && showSubnav}>
+      <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
         <div>
           {item.icon}
           <SidebarLabel>{item.title}</SidebarLabel>
