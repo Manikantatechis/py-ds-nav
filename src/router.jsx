@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Notebook from './Containers/Notebook'
+import Home from './Containers/Home';
 
 
 
@@ -17,6 +18,7 @@ export default function Router() {
         <>
             <Sidebar sidebar={sidebar} showSidebar={showSidebar} />
             <Routes>
+                <Route path='/' element={<Home showSidebar1={showSidebar1} />} />
                 <Route path='/step1/:fileName' element={<Notebook showSidebar1={showSidebar1} />} />
             </Routes>
         </>

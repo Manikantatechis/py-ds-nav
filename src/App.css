@@ -19,4 +19,44 @@
   font-size: 3rem;
 }
 
+nav a div {
+  display: flex;
+  align-items: center;
+}
+div.App {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: 80px;
+}
+.output-border {
+  border-color: green;
+}
 
+.output-text {
+  color: purple;
+}
+
+.output-image {
+  margin: auto; /* Center */
+}
+
+html body div#root div.App h1 {
+  color: #00ffaeff important;
+}
+
+h3,
+h4,
+h5 {
+  color: #17b9cbff important;
+}
+
+ol li {
+  color: #17b9cbff !important;
+  font-size: 1.5rem;
+}
+.p-4.notebook-class {
+  background-color: white;
+}
+div div > p {
+  overflow: scroll;
+}

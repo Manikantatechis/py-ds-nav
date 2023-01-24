@@ -11,6 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.header-content {
+  position: fixed;
+  top: 0;
+  display: block !important;
+  z-index: 2;
+  width: 100% !important;
+}
+div a.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div a.header img {
+  width: 300px;
+  margin-right: 3%;
+  z-index: 2;
+}
 
 @media only screen and (max-width: 400px) {
   div#root nav {
@@ -18,5 +35,15 @@ code {
   }
   div#root a span {
     font-size: 12px;
+  }
+  div.header-content {
+    height: 50px;
+  }
+  div a.header {
+    height: 50px;
+  }
+  div a.header img {
+    width: 150px;
+    margin-right: 5%;
   }
 }

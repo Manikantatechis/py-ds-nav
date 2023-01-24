@@ -4,10 +4,19 @@ import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
 import * as RiIcons from 'react-icons/ri';
 
+
 export const SidebarData = [
   {
-    title: 'Step_1_1a_Python_Foundations_01',
-    path: '/step1/Step_1_1a_Python_Foundations_01.ipynb',
+    title: 'Home',
+    path: '/',
+    icon: <RiIcons.RiHome8Line />,
+    iconClosed: <RiIcons.RiHome8Line />,
+    iconOpened: <RiIcons.RiHome8Line />,
+  },
+  {
+    title: 'Python_Foundations_01',
+    path: '/step1/Step_1_1a_Python_Foundations_01',
+    icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
@@ -44,14 +53,16 @@ export const SidebarData = [
     // ]
   },
   {
-    title: 'Step_1_1b_Python_Foundations_02',
-    path: '/step1/Step_1_1b_Python_Foundations_02.ipynb',
+    title: 'Python_Foundations_02',
+    path: '/step1/Step_1_1b_Python_Foundations_02',
+    icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
   },
   {
-    title: 'Step_1_1c_Python_Foundations_03',
-    path: '/step1/Step_1_1c_Python_Foundations_03.ipynb',
+    title: 'Python_Foundations_03',
+    path: '/step1/Step_1_1c_Python_Foundations_03',
+    icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
   }
