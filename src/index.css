@@ -22,11 +22,14 @@ div a.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 }
 div a.header img {
   width: 300px;
-  margin-right: 3%;
+  margin-right: 5%;
   z-index: 2;
+  overflow: hidden;
+  margin-top: 13px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -43,7 +46,9 @@ div a.header img {
     height: 50px;
   }
   div a.header img {
-    width: 150px;
-    margin-right: 5%;
+    width: 200px;
+    margin-right: 7%;
+    overflow: hidden;
+    margin-top: 13px;
   }
 }
