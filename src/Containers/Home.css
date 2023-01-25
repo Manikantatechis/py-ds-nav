@@ -1,0 +1,5 @@
+div.home {
+  text-align: center;
+  font-size: clamp(1rem, 10vw, 5rem);
+  background-color: white;
+}

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14a35b71.chunk.css",
+    "main.js": "/static/js/main.1af65f02.chunk.js",
+    "main.js.map": "/static/js/main.1af65f02.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d4366c81.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d4366c81.js.map",
+    "static/css/2.75967d04.chunk.css": "/static/css/2.75967d04.chunk.css",
+    "static/js/2.2671237c.chunk.js": "/static/js/2.2671237c.chunk.js",
+    "static/js/2.2671237c.chunk.js.map": "/static/js/2.2671237c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.75967d04.chunk.css.map": "/static/css/2.75967d04.chunk.css.map",
+    "static/css/main.14a35b71.chunk.css.map": "/static/css/main.14a35b71.chunk.css.map",
+    "static/js/2.2671237c.chunk.js.LICENSE.txt": "/static/js/2.2671237c.chunk.js.LICENSE.txt",
+    "static/media/katex.min.css": "/static/media/KaTeX_Typewriter-Regular.c5c02d76.ttf",
+    "static/media/logo1.391b5733.svg": "/static/media/logo1.391b5733.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4366c81.js",
+    "static/css/2.75967d04.chunk.css",
+    "static/js/2.2671237c.chunk.js",
+    "static/css/main.14a35b71.chunk.css",
+    "static/js/main.1af65f02.chunk.js"
+  ]
+}
