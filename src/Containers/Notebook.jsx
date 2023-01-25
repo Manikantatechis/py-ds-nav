@@ -36,7 +36,6 @@ export default function Notebook({ showSidebar1, setLoading, loading }) {
             <div className="App" style={loading ? { display: 'none' } : { display: 'block' }} onClick={showSidebar1}>
                 <JupyterNotebookViewer
                     filePath={`/notebooks/Step 1-1 Python/${path}.ipynb`}
-                    // filePath={`/notebooks/Step 1-1 Python/Step_1_1a_Python_Foundations_01.ipynb`}
                     className="notebook-class"
                     notebookInputLanguage="python"
                     inputCodeDarkTheme={DARK_MODE}
